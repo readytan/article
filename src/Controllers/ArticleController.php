@@ -15,7 +15,7 @@ class ArticleController extends Controller
     public function index()
     {
         //
-        $article=222;
+        $article=22233333;
         return view('article::index',compact('article'));
     }
 

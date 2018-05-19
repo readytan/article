@@ -24,6 +24,7 @@ class ArticleServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
         $this->loadViewsFrom(__DIR__.'/Views','article');
+//        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
     }
 
